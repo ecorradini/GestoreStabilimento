@@ -27,7 +27,7 @@ class VistaCliente(QWidget):
         v_layout.addWidget(QLabel(f"Data nascita: {info['dataNascita']}"))
         v_layout.addWidget(QLabel(f"Codice Fiscale: {info['codiceFiscale']}"))
         v_layout.addWidget(QLabel(f"Email: {info['email']}"))
-        v_layout.addWidget(QLabel(f"Telefono: {info['telefono']}"))
+        v_layout.addWidget(QLabel(f"Telefonoo: {info['telefono']}"))
 
         if "note" in info:
             v_layout.addWidget(QLabel(f"Note: {info['note']}"))
